@@ -1,0 +1,33 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px;
+}
+
+.grid-row {
+  display: flex;
+  gap: 5px;
+}
+
+.grid-node {
+  width: 40px;
+  height: 40px;
+  background-color: #e0e0e0;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s;
+}
+
+.grid-node.active {
+  background-color: white;
+}
+
+.grid-node.inactive {
+    background-color: black;
+}
+
